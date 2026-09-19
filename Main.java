@@ -30,5 +30,21 @@ class Main {
 
         System.out.print("Postorder: ");
         BasicTree.Postorder(root);
+
+
+        System.out.println("Total Nodes: "
+                + Otheroperations.countNodes(root));
+
+        System.out.println("Leaf Nodes: "
+                + Otheroperations.countleafnode(root));
+
+        System.out.println("Sum: "
+                + Otheroperations.sum(root));
+
+        System.out.println("Search G: "
+                + Otheroperations.search(root, 'G'));
+
+        System.out.println("Search C: " 
+                + Otheroperations.search(root, 'C'));
     }
 }

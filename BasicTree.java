@@ -27,5 +27,4 @@ class BasicTree{
         System.out.print(root.data + "->");
     }
 
-
 }
