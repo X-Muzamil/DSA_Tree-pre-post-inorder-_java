@@ -5,7 +5,7 @@ class BasicTree{
         return;
 
         inorder(root.left);
-        System.out.print(root);
+        System.out.print(root.data + "->");
         inorder(root.right);
     }
 
@@ -13,7 +13,7 @@ class BasicTree{
         if(root == null)
         return;
 
-        System.out.print(root);
+        System.out.print(root.data + "->");
         Preorder(root.left);
         Preorder(root.right);
     }
@@ -24,7 +24,7 @@ class BasicTree{
 
         Postorder(root.left);
         Postorder(root.right);
-        System.out.print(root);
+        System.out.print(root.data + "->");
     }
 
 
